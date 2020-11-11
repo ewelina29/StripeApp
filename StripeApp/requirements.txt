@@ -1,0 +1,7 @@
+Django==2.2
+psycopg2-binary>=2.8
+djangorestframework==3.11.0
+stripe==2.50
+django-cors-headers==3.5.0
+
+

@@ -1,0 +1,108 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.StripeElement {
+    box-sizing: border-box;
+    margin: 10px 0;
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.stripe-form {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 30%;
+    border: 2px solid #32325d;
+    border-radius: 5px;
+    /*background: #61dafb;*/
+}
+
+.submit-btn{
+    margin: 10px 0;
+    width: 50%;
+    align-self: center;
+    background: #32325d;
+    padding: 10px 14px;
+    color: white;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 15px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+
+}
+
+.card-errors{
+    color: red;
+}
